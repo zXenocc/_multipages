@@ -24,7 +24,7 @@ function App() {
   const [tab, setTab] = useState("");
   const [products, setProducts] = useState([]);
   const [carts, setCarts] = useState([]);
-  const [token, setToken] = useState("x");
+  const [token, setToken] = useState("");
   const [role, setRole] = useState('')
 
   useEffect(() => {
